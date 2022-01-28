@@ -36,7 +36,7 @@ header p{
 .column{
   float: left;
   width: 22%;
-  margin: 15px;
+  margin: 20px 0px 20px 28px;
   padding: 0px;
   text-align: center;
   border-radius: 5%;
@@ -61,6 +61,7 @@ header p{
   font-family: 'Outfit', sans-serif;
   color:  #652817;
   list-style: inside;
+  list-style-type: square;
   
 }
 
