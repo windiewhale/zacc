@@ -1,4 +1,6 @@
 
+
+
 header{
   display: flex;
   padding: 50px 200px 50px 160px;
@@ -18,17 +20,6 @@ header p{
   width: 500px;
   flex-grow: 1;
 }
-
-
-/*#root{
-  width: 200px;
-  height: 200px;
-  background-image: url(https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-512.png);
-  background-size: 200px 200px;
-  margin-left: 35%; 
- }
- */
-
 
 #root img{
   width:80px;
@@ -50,7 +41,7 @@ header p{
   text-align: center;
   border-radius: 5%;
   background-color: #DABE99;
-  box-shadow: 10px 10px  #684726 /* 20px 20px #BF9053;*/; 
+  box-shadow: 10px 10px  #684726; 
   height: 380px;
 }
 
@@ -60,7 +51,6 @@ header p{
   margin: auto;
   max-width: 1200px;
   width: 100vw;
- /* margin: 0;*/
   font-family: 'Outfit', sans-serif;
   color:  #652817;
   
@@ -143,7 +133,7 @@ h2{
     padding: 20px 20px 120px 20px;
     margin: 20px 0px 150px 25px;
     background-color: #DABE99;
-    box-shadow: 10px 10px  #684726 /*20px 0px #BF9053*/; 
+    box-shadow: 10px 10px  #684726; 
     border-radius: 15px;
 }
 
@@ -154,8 +144,6 @@ h2{
   border-radius: 10%;
   object-fit: cover;
   box-shadow: 5px 5px 10px #BF9053;
-  /*border: 4px solid; 
-  border-color: #BF9053;*/
 }
 
 .contant ul{
@@ -171,11 +159,6 @@ h2{
   padding: 40px;
 }
 
-/*h2{
-  font-family: 'Gloria Hallelujah', cursive;
-  font-size: 50px;
-}*/
-
 .heading{
   font-family: 'Damion', cursive;
   font-size: 30px;
@@ -183,17 +166,12 @@ h2{
   text-shadow: 2px 2px #684726;
 }
 
-
-
 .row{
   position: relative;
   max-width: 1500px;
   height: 100vh;
 }
 
-/*.column ul{
-  padding-inline-start: 80px;
-}*/
 .container2{
   text-align: left;
   background-color: #ece0d1; 
@@ -229,7 +207,6 @@ h2{
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   padding-inline-start: 40px;
-  
 }
 
 footer{
@@ -237,6 +214,7 @@ footer{
   background-color: #ece0d1;
   
 }
+
 footer p{
   text-align:center;
   margin:0px;
