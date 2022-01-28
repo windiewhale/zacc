@@ -1,229 +1,244 @@
+
 header{
-    display: flex;
-    padding: 50px 200px 50px 160px;
-    text-align: center;
-    height: 190px;
-    margin: 0px 0px 200px 0px;
+  display: flex;
+  padding: 50px 200px 50px 160px;
+  text-align: center;
+  height: 190px;
+  margin: 0px 0px 200px 0px;
+
+}
+header p{
+  margin:0px;
+  font-size:300px;
+  font-family: 'Damion', cursive;
+  text-shadow: 6px 6px #BF9053;
   
-  }
-  header p{
-    margin:0px;
-    font-size:300px;
-    font-family: 'Damion', cursive;
-    text-shadow: 6px 6px #BF9053;
-    
-  }
-  #headerp{
-    width: 500px;
-    flex-grow: 1;
-  }
+}
+#headerp{
+  width: 500px;
+  flex-grow: 1;
+}
+
+
+/*#root{
+  width: 200px;
+  height: 200px;
+  background-image: url(https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-512.png);
+  background-size: 200px 200px;
+  margin-left: 35%; 
+ }
+ */
+
+
+#root img{
+  width:80px;
+  height:80px;
+  float: left;
+  padding: 120px 0px 0px 0px;
+}
+
+#root{
+  flex-grow: 2;
+  max-width: 150px;
+}
+
+.column{
+  float: left;
+  width: 22%;
+  margin: 15px;
+  padding: 0px;
+  text-align: center;
+  border-radius: 5%;
+  background-color: #DABE99;
+  box-shadow: 10px 10px  #684726 /* 20px 20px #BF9053;*/; 
+  height: 380px;
+}
+
+
+.body{
+  background-color: #DABE99;
+  margin: auto;
+  max-width: 1200px;
+  width: 100vw;
+ /* margin: 0;*/
+  font-family: 'Outfit', sans-serif;
+  color:  #652817;
   
   
-  /*#root{
-    width: 200px;
+}
+
+.title{
+  font-family: 'Outfit', sans-serif;
+  color:  #652817;
+  list-style: inside;
+  
+}
+
+.container{
+  position: relative;
+  width: 1200px;
+  margin: 0px 0px 0px -85px;
+  text-align: justify;
+  font-size: 18px; 
+  
+}
+
+.picture{
+    border-radius: 15px;
     height: 200px;
-    background-image: url(https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-512.png);
-    background-size: 200px 200px;
-    margin-left: 35%; 
-   }
-   */
-  
-  
-  #root img{
-    width:80px;
-    height:80px;
-    float: left;
-    padding: 120px 0px 0px 0px;
-  }
-  
-  #root{
-    flex-grow: 2;
-    max-width: 150px;
-  }
-  
-  .column{
-    float: left;
-    width: 22%;
-    margin: 15px;
-    padding: 0px;
-    text-align: center;
-    border-radius: 5%;
-    background-color: #DABE99;
-    box-shadow: 10px 10px  #684726 /* 20px 20px #BF9053;*/; 
-    height: 380px;
-  }
-  
-  
-  .body{
-    background-color: #DABE99;
-    margin: auto;
-    max-width: 1200px;
-    width: 100vw;
-   /* margin: 0;*/
-    font-family: 'Outfit', sans-serif;
-    color:  #652817;
-    
-    
-  }
-  
-  .title{
-    font-family: 'Outfit', sans-serif;
-    color:  #652817;
-    list-style: inside;
-    
-  }
-  
-  .container{
-    position: relative;
-    text-align: left;
-    width: 1200px;
-    margin: 0px 0px 0px -85px;
-    
-  }
-  
-  .picture{
-      border-radius: 15px;
-      height: 200px;
-      width: 200px;
-      object-fit: cover;
-      
-  }
-  
-  .head2{
-      margin-left: 10px;
-      padding-bottom: 20px;
-      text-align: left;
-    }
-  h2{ 
-    font-family: 'Damion', cursive;
-    font-size: 50px;
-    text-shadow: 3px 3px #BF9053;
-    background-color: #ece0d1;
-    margin:0px;
-    
-  }
-  
-  .leftside{
-    float: left;
-    width: 600px;
-    padding: 10px;
-  }
-  
-  .p{
-      text-align: justify;
-      line-height: 30px;
-      font-family: 'Damion', cursive;
-  }
-  .rightside{
-      float: left;
-      width: 470px;
-      padding: 10px;
-  }
-  .personal{
-    height: 100%;  
-    width: 100%;
-    padding: 10px;
-    border-radius: 20%;
-  }
-  
-  #root100{
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #DABE99;
-  }
-  
-  .contant{
-      width: 230px;
-      height: 400px;
-      float:left;
-      padding: 20px 20px 120px 20px;
-      margin: 10px 10px 10px 10px;
-      background-color: #DABE99;
-      box-shadow: 10px 10px  #684726 /*20px 0px #BF9053*/; 
-      border-radius: 15px;
-  }
-  
-  .contant img{
-    width:210px;
-    height:210px;
-    padding: 10px;
-    border-radius: 10%;
+    width: 200px;
     object-fit: cover;
-  }
-  
-  .contant ul{
+    
+}
+
+.head2{
+    margin-left: 10px;
+    padding-bottom: 20px;
     text-align: left;
-    list-style: square;
-    padding-inline-start: 20px;
   }
-  .contant li{
-    padding:5px 0px 5px 0px;
-  }
-  
-  #footer{
-    padding: 40px;
-  }
-  
-  /*h2{
-    font-family: 'Gloria Hallelujah', cursive;
-    font-size: 50px;
-  }*/
-  
-  .heading{
+
+h2{ 
+  font-family: 'Damion', cursive;
+  font-size: 50px;
+  text-shadow: 3px 3px #BF9053;
+  background-color: #ece0d1;
+  margin:0px;
+  padding: 0px 0px 20px 40px;
+}
+
+.leftside{
+  float: left;
+  width: 600px;
+  padding: 10px;
+}
+
+.p{
+    text-align: justify;
+    line-height: 30px;
     font-family: 'Damion', cursive;
-    font-size: 30px;
-  }
-  
-  
-  
-  .row{
-    position: relative;
-    max-width: 1500px;
-    height: 100vh;
-  }
-  
-  /*.column ul{
-    padding-inline-start: 80px;
-  }*/
-  .container2{
-    text-align: left;
-    background-color: #ece0d1; 
-  }
-  
-  .container2 ul{
-    padding-inline-start: 20px;
-    background-color: #DABE99;
-  
-  }
-  
-  .column img{
-    margin-top: 30px;
-    border-color: #BF9053;
-  }
-  
-  .team{
-    text-align: left;
-    vertical-align: middle;
-    font-family: 'Damion', cursive;
-    font-weight: bold;
-  }
-  
-  .team p{
-    text-shadow: 3px 3px #BF9053;
-    font-size: 50px;
-    margin: 0px;
-    background-color: #ece0d1;
+}
+.rightside{
+    float: left;
+    width: 470px;
     padding: 10px;
-    
-  }
+}
+.personal{
+  height: 100%;  
+  width: 100%;
+  padding: 10px;
+  border-radius: 20%;
+}
+
+#root100{
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #DABE99;
+}
+
+.contant{
+    width: 230px;
+    height: 350px;
+    float:left;
+    padding: 20px 20px 120px 20px;
+    margin: 20px 0px 150px 25px;
+    background-color: #DABE99;
+    box-shadow: 10px 10px  #684726 /*20px 0px #BF9053*/; 
+    border-radius: 15px;
+}
+
+.contant img{
+  width:210px;
+  height:210px;
+  margin: 10px;
+  border-radius: 10%;
+  object-fit: cover;
+  box-shadow: 5px 5px 10px #BF9053;
+  /*border: 4px solid; 
+  border-color: #BF9053;*/
+}
+
+.contant ul{
+  text-align: left;
+  list-style: square;
+  padding-inline-start: 20px;
+}
+.contant li{
+  padding:5px 0px 5px 0px;
+}
+
+#footer{
+  padding: 40px;
+}
+
+/*h2{
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 50px;
+}*/
+
+.heading{
+  font-family: 'Damion', cursive;
+  font-size: 30px;
+  color: #bf90579e;
+  text-shadow: 2px 2px #684726;
+}
+
+
+
+.row{
+  position: relative;
+  max-width: 1500px;
+  height: 100vh;
+}
+
+/*.column ul{
+  padding-inline-start: 80px;
+}*/
+.container2{
+  text-align: left;
+  background-color: #ece0d1; 
+}
+
+.container2 ul{
+  padding-inline-start: 20px;
+  background-color: #DABE99;
+  line-height: 23px;
+
+}
+
+.column img{
+  margin-top: 30px;
+  /*border: 5px solid;*/ 
+  border-color: #DABE99;
+  box-shadow: 5px 5px 15px #BF9053;
+}
+
+.team{
+  text-align: left;
+  vertical-align: middle;
+  font-family: 'Damion', cursive;
+  font-weight: bold;
+}
+
+.team p{
+  text-shadow: 3px 3px #BF9053;
+  font-size: 60px;
+  margin: 0px;
+  background-color: #ece0d1;
+  padding: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding-inline-start: 40px;
   
-  footer{
-    color:#652817;
-    background-color: #ece0d1;
-    
-  }
-  footer p{
-    text-align:center;
-    margin:0px;
-  }
+}
+
+footer{
+  color:#652817;
+  background-color: #ece0d1;
+  
+}
+footer p{
+  text-align:center;
+  margin:0px;
+  font-size: 20px;
+}
